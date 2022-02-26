@@ -1,0 +1,57 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-image: url(wallpaper.jpg);
+  background-size: cover;
+  color: white;
+}
+.heading{
+  margin: 30px 0;
+  text-align: center;
+  font-size: 30px;
+}
+.content{
+  display: flex;
+  justify-content: center;
+}
+.content h2{
+  text-align: center;
+  padding-bottom: 10px;
+  color: crimson;
+  background-color: white;
+  border-radius: 50px;
+  font-size: 40px;
+  font-weight: bold;
+
+}
+.format{
+  border: 5px solid white;
+  width: 30vw;
+  height: 40vh;
+  padding: 50px;
+  border-radius: 50px;
+  border-style: ridge;
+}
+.box{
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 50px;
+}
+.format label{
+  font-size: 40px;
+  font-weight: bold;
+  padding-right: 7px;
+}
+.format input{
+  height: 35px;
+  width: 150px;
+  border: 3px solid white;
+  border-radius: 30px;
+  border-style: inset;
+  text-align: center;
+}
+.format input::placeholder{
+  text-align: center;
+}
